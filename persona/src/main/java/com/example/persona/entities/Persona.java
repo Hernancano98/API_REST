@@ -37,5 +37,7 @@ public class Persona extends Base{
             inverseJoinColumns = @JoinColumn(name = "libro_id"))
     private List<Libro> libros= new ArrayList<Libro>();
 
+    private String test;
+
 
 }
